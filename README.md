@@ -8,6 +8,9 @@ Komodo CC Token testing description, setup &amp; how-to
 #### [Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
 #### [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
 
+## [faq](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
+
+
 ## What is CC Enabled Token
 We have core assets support to CC enabled coins. Still need to test it and make rpc calls to createasset and transferasset, but there is no GUI or high level tracking of such things. And no DEX for assets. Just experimenting with what can be done with CC.
 An assetchain could now be used as a tokenizing platform. The tokens inherited the utxos. They are utxos, just special ones (colored coins actually).
