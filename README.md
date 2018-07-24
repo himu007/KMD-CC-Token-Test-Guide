@@ -7,7 +7,7 @@ Komodo CC Token testing description, setup &amp; how-to
 #### [Compile Komodo](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#compile-komodo)  
 #### [Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
 #### [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
-
+---
 ## [faq](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
 
 
