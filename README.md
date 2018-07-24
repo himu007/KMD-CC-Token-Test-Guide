@@ -6,7 +6,7 @@ Komodo CC Token testing description, setup &amp; how-to
 #### [How would those assets move?](https://github.com/himu007/KMD-CC-Token-Test-Guide#how-would-those-assets-move)
 #### [Compile Komodo](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#compile-komodo)  
 #### [Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
-### [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
+#### [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
 
 ## What is CC Enabled Token
 We have core assets support to CC enabled coins. Still need to test it and make rpc calls to createasset and transferasset, but there is no GUI or high level tracking of such things. And no DEX for assets. Just experimenting with what can be done with CC.
