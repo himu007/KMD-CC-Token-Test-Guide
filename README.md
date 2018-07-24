@@ -8,7 +8,7 @@ Komodo CC Token testing description, setup &amp; how-to
 #### [Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
 #### [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
 ---
-## [faq](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
+## [Frequently Aksed Questions (faq)](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
 
 
 ## What is CC Enabled Token
