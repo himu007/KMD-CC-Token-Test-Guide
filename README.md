@@ -22,3 +22,24 @@ git checkout dev
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
 ```
+
+## Available RPC commands
+```
+== Tokens ==
+tokenaddress [pubkey]
+tokenask numtokens tokenid price
+tokenbalance tokenid [pubkey]
+tokenbid numtokens tokenid price
+tokencancelask tokenid asktxid
+tokencancelbid tokenid bidtxid
+tokencreate name supply description
+tokenfillask tokenid asktxid fillamount
+tokenfillbid tokenid bidtxid fillamount
+tokenfillswap tokenid otherid asktxid fillamount
+tokenorders [tokenid]
+tokenswap numtokens tokenid otherid price
+tokentransfer tokenid destpubkey amount
+faucetaddress [pubkey]
+faucetfund 
+amountfaucetget
+```
