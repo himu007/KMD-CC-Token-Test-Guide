@@ -3,3 +3,6 @@ A: As long as it compiles to a linkable library, the language for new contract (
 
 Q:  
 A: 
+
+
+### Didn't find your answer here? Please ask question in #crypto-conditions channel in [Komodo Discord](https://komodoplatform.com/discord)
