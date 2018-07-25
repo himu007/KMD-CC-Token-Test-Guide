@@ -28,7 +28,7 @@ A: I dont think any other bitcoin protocol blockchain has contracts code with fu
 
 **Q:  Does each additional contract require a hard fork?**  
 
-A: It depends on what you mean, how it was deployed and if any specific CC contracts were done.
+A: adding support for a new contract would require a hardfork. It also depends on what you mean, how it was deployed and if any specific CC contracts were done.
 
 Q:  
 
