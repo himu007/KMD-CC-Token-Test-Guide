@@ -2,6 +2,13 @@
 
 Usage: `tokenorders [tokenid]`
 
+```
+'b' is the offer, 'B' is the fill
+fillbid for bid
+fillask for ask
+fillswap for swap
+```
+
 ### Show all available orders
 
 Example Command:
