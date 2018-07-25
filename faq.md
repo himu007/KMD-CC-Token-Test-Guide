@@ -26,8 +26,8 @@ A: As at July 2018, The demo contracts currently use the absolute simplest possi
 
 A: I dont think any other bitcoin protocol blockchain has contracts code with full access to prior blockchain data.
 
-Q:  
-A: 
+**Q:  Does each additional contract require a hard fork?**
+A: It depends on what you mean, how it was deployed and if any specific CC contracts were done.
 
 
 ### Didn't find your answer here? Please ask question in #crypto-conditions channel in [Komodo Discord](https://komodoplatform.com/discord)
