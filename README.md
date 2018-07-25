@@ -75,7 +75,7 @@ tokenfillbid tokenid bidtxid fillamount
 tokenfillswap tokenid otherid asktxid fillamount
 tokenorders [tokenid]
 tokenswap numtokens tokenid otherid price
-[tokentransfer tokenid destpubkey amount](/rpc/tokentransfer.md)
+[tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)
 faucetaddress [pubkey]
 faucetfund 
 amountfaucetget
