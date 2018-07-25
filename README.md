@@ -69,13 +69,13 @@ tokenbalance tokenid [pubkey]
 tokenbid numtokens tokenid price
 tokencancelask tokenid asktxid
 tokencancelbid tokenid bidtxid
-tokencreate name supply description
+[tokencreate name supply description](./rpc/tokencreate)
 tokenfillask tokenid asktxid fillamount
 tokenfillbid tokenid bidtxid fillamount
 tokenfillswap tokenid otherid asktxid fillamount
 tokenorders [tokenid]
 tokenswap numtokens tokenid otherid price
-[tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)
+[tokentransfer tokenid destpubkey amount](./rpc/tokentransfer)
 faucetaddress [pubkey]
 faucetfund 
 amountfaucetget
