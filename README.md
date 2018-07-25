@@ -79,6 +79,8 @@ tokenfillswap tokenid otherid asktxid fillamount
 [tokenorders [tokenid]](./rpc/tokenorders.md)  
 tokenswap numtokens tokenid otherid price  
 [tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)  
+
+== Faucet ==  
 faucetaddress [pubkey]  
 faucetfund  
 amountfaucetget  
