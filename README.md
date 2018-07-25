@@ -62,7 +62,7 @@ git checkout dev
 ./zcutil/build.sh -j$(nproc)
 ```
 
-## Available RPC commands
+## Available RPC Commands
 
 == Tokens ==  
 tokenaddress [pubkey]  
@@ -82,3 +82,16 @@ faucetaddress [pubkey]
 faucetfund  
 amountfaucetget  
 
+## WIP RPC Commands
+```
+rewardsaddfunding name fundingtxid amount
+rewardsaddress [pubkey]
+rewardsfund name amount APR mindays maxdays mindeposit
+rewardslock name fundingtxid amount
+rewardsunlock name fundingtxid [txid]
+```
+
+## Suggested RPC Commands
+```
+WIP
+```
