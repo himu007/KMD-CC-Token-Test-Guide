@@ -61,7 +61,7 @@ git checkout dev
 ```
 
 ## Available RPC commands
-```
+
 == Tokens ==
 tokenaddress [pubkey]
 tokenask numtokens tokenid price
@@ -75,8 +75,8 @@ tokenfillbid tokenid bidtxid fillamount
 tokenfillswap tokenid otherid asktxid fillamount
 tokenorders [tokenid]
 tokenswap numtokens tokenid otherid price
-[tokentransfer tokenid destpubkey amount](./rpc/tokentransfer)
+[tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)
 faucetaddress [pubkey]
 faucetfund 
 amountfaucetget
-```
+
