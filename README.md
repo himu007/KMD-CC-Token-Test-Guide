@@ -7,7 +7,7 @@ Komodo CC Token testing description, setup &amp; how-to
 [How would those assets move?](https://github.com/himu007/KMD-CC-Token-Test-Guide#how-would-those-assets-move)  
 [Compile Komodo](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#compile-komodo)    
 [Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
-[WIP RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#wip-rpc-commands)
+[WIP RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#wip-rpc-commands)  
 [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
 
 ---
@@ -87,6 +87,7 @@ amountfaucetget
 
 ## WIP RPC Commands
 ```
+== Rewards ==
 rewardsaddfunding name fundingtxid amount
 rewardsaddress [pubkey]
 rewardsfund name amount APR mindays maxdays mindeposit
