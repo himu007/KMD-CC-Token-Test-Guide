@@ -80,6 +80,8 @@ Output:
 ```
 
 ### Show orders for specific token
+Usage: `tokenorders [tokenid]`
+
 Example Command:
 ```shell
 ./komodo-cli -ac_name=ATEST tokenorders c5bbc34e6517c483afc910a3b0585c40da5c09b7c5d2d9757c5c5075e2d41b59
