@@ -68,7 +68,7 @@ git checkout dev
 == Tokens ==  
 tokenaddress [pubkey]  
 tokenask numtokens tokenid price  
-tokenbalance tokenid [pubkey]  
+[tokenbalance tokenid [pubkey]](./rpc/tokenbalance.md)  
 tokenbid numtokens tokenid price  
 tokencancelask tokenid asktxid  
 tokencancelbid tokenid bidtxid  
