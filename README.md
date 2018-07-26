@@ -7,7 +7,7 @@ Komodo CC Token testing description, setup &amp; how-to
 [How would those assets move?](https://github.com/himu007/KMD-CC-Token-Test-Guide#how-would-those-assets-move)  
 [Compile Komodo](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#compile-komodo)    
 [Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
-[WIP RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#wip-rpc-commands)  
+[(WIP) RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#wip-rpc-commands)  
 [How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
 
 ---
@@ -17,9 +17,11 @@ Komodo CC Token testing description, setup &amp; how-to
 ## What is CC Enabled Token
 We have core assets support to CC enabled coins. Still need to test it and make rpc calls to createasset and transferasset, but there is no GUI or high level tracking of such things. And no DEX for assets. Just experimenting with what can be done with CC.
 An assetchain could now be used as a tokenizing platform. The tokens inherited the utxos. They are utxos, just special ones (colored coins actually).
+
 These are assets, like NXT assets, or you can refer them as tokens. Tokenizing chain can be done within an assetchain. They can be generated from any chain with CC enabled.
 It has no rpc yet, need to use hoek to create and transfer assets. But there would be rpc like: createasset, transferasset (will be like sendmany), assetaddress <pubkey> which returns a dedicated address where all assets for a pubkey end up.
 Using an explorer (addressindex) then the assets balance for an address can be tallied.
+
 It requires locking X amount of native coins to create the supply for an asset. So, if you want a unique asset, make it 1 satoshi. Using 1 coin gives you 100 million assets. Or you can interpret it with different decimal precision.
 Each satoshi can be 1 token. So from 1.00000000 coins it makes 100 million assets, but without any fractions.
 
@@ -94,6 +96,14 @@ rewardsfund name amount APR mindays maxdays mindeposit
 rewardslock name fundingtxid amount
 rewardsunlock name fundingtxid [txid]
 ```
+
+## General guidance on reporting issues on discord (Regarding CryptoConditions development):
+
+* the specific chain parameters so anyone can connect to it
+* the **EXACT** rpc call and parameters you used
+*  **the most important!** the raw tx generated
+*  clear description of why you think it is a bug. for now you need to look at the raw tx details to make sure all vins are valid, signed and all vouts are sane.
+* Please don't post things like "i tried X and it didnt work" as that does not help at all at this stage. These are raw transaction level things and until everything works, things won't work at the higher level.
 
 ## Suggested RPC Commands
 ```
