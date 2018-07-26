@@ -2,6 +2,7 @@
 
 Usage: `tokenorders [tokenid]`
 
+Good to know:
 ```
 Fill: 'b' is the offer, 'B' is the fill
 Ask: 's' is the offer, 'S' is the ask
@@ -9,6 +10,21 @@ fillbid for bid
 fillask for ask
 fillswap for swap
 ```
+
+If you place an offer, until someone fills the order, it just sits there. 
+
+**buy offer, bid**  
+tokenbid -> 'b'  
+tokenbidfill -> 'B'  
+You place a buy order with 'b'  
+Someone else fills it with 'B'  
+
+**sell offer, ask**
+tokenask -> 's'  
+tokenaskfill -> 'S'  
+You place a sell order with 's'  
+Someone else fills it with 'S'  
+
 
 ### Show all available orders
 
