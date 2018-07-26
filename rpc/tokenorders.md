@@ -3,8 +3,8 @@
 Usage: `tokenorders [tokenid]`
 
 ```
-'b' is the offer, 'B' is the fill
-'s' is the offer, 'S' is the ask
+Fill: 'b' is the offer, 'B' is the fill
+Ask: 's' is the offer, 'S' is the ask
 fillbid for bid
 fillask for ask
 fillswap for swap
