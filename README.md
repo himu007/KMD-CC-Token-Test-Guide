@@ -75,7 +75,7 @@ tokenbid numtokens tokenid price
 tokencancelask tokenid asktxid  
 tokencancelbid tokenid bidtxid  
 [tokencreate name supply description](./rpc/tokencreate.md)  
-tokenfillask tokenid asktxid fillamount  
+[tokenfillask tokenid asktxid fillamount](./rpc/tokenfillask.md)  
 tokenfillbid tokenid bidtxid fillamount  
 tokenfillswap tokenid otherid asktxid fillamount  
 [tokenorders [tokenid]](./rpc/tokenorders.md)  
