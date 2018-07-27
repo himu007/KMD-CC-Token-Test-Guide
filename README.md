@@ -78,6 +78,7 @@ git checkout dev
 [tokenfillask tokenid asktxid fillamount](./rpc/tokenfillask.md)  
 [tokenfillbid tokenid bidtxid fillamount](./rpc/tokenfillbid.md)  
 [tokenfillswap tokenid otherid asktxid fillamount](./rpc/tokenfillswap.md)  
+[tokeninfo](./rpc/tokeninfo.md)  
 [tokenorders [tokenid]](./rpc/tokenorders.md)  
 [tokenswapask numtokens tokenid otherid price](./rpc/tokenswapask.md)  
 [tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)  
