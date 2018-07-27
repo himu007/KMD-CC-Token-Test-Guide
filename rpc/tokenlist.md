@@ -2,7 +2,7 @@
 
 This call will list all tokens that are available. Please report if this call is not displaying any tokenid.
 
-To find detailed info about any specific token, use [`tokeninfo`](./tokeninfo) command using the `tokenid` from the list.
+To find detailed info about any specific token, use [`tokeninfo`](./tokeninfo.md) command using the `tokenid` from the list.
 
 Example Command:  
 ```shell
