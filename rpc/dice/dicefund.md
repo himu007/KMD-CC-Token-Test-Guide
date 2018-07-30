@@ -3,7 +3,7 @@ Usage: `dicefund name funds minbet maxbet maxodds timeoutblocks`
 
 ### Terminology 
 ```
-name = 
+name = Name of your Dice contract
 funds = The amount of funds you want to start with
 minbet = Minimum amount allowed for bet
 maxbet = Maximum amount allowed for bet
