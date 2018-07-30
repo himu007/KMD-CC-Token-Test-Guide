@@ -3,7 +3,7 @@ Komodo CC Token testing description, setup &amp; how-to
 
 ## Available SmartContracts
 Select the contract to learn more about the SmartContract from below.  
-[Tokens](./rpc/tokens)  
+[Tokens](./rpc/token)  
 [Rewards](./rpc/rewards)  
 [Faucet](./rpc/faucet)  
 
