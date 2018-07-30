@@ -83,7 +83,7 @@ git checkout dev
 [tokenswapask numtokens tokenid otherid price](./rpc/tokenswapask.md)  
 [tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)  
 
-== Faucet ==  
+[== Faucet ==](./faucet)  
 faucetaddress [pubkey]  
 faucetfund  
 amountfaucetget  
