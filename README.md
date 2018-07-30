@@ -67,21 +67,21 @@ git checkout dev
 
 ## Available RPC Commands
 
-== Tokens ==  
-[tokenaddress [pubkey]](./rpc/tokenaddress.md)  
-[tokenask numtokens tokenid price](./rpc/tokenask.md)  
-[tokenbalance tokenid [pubkey]](./rpc/tokenbalance.md)  
-[tokenbid numtokens tokenid price](./rpc/tokenbid.md)  
-[tokencancelask tokenid asktxid](./rpc/tokencancelask.md)  
-[tokencancelbid tokenid bidtxid](./rpc/tokencancelbid.md)  
-[tokencreate name supply description](./rpc/tokencreate.md)  
-[tokenfillask tokenid asktxid fillamount](./rpc/tokenfillask.md)  
-[tokenfillbid tokenid bidtxid fillamount](./rpc/tokenfillbid.md)  
-[tokenfillswap tokenid otherid asktxid fillamount](./rpc/tokenfillswap.md)  
-[tokeninfo](./rpc/tokeninfo.md)  
-[tokenorders [tokenid]](./rpc/tokenorders.md)  
-[tokenswapask numtokens tokenid otherid price](./rpc/tokenswapask.md)  
-[tokentransfer tokenid destpubkey amount](./rpc/tokentransfer.md)  
+[== Tokens ==](./rpc/token)  
+tokenaddress [pubkey]  
+tokenask numtokens tokenid price  
+tokenbalance tokenid [pubkey]  
+tokenbid numtokens tokenid price  
+tokencancelask tokenid asktxid  
+tokencancelbid tokenid bidtxid  
+tokencreate name supply description  
+tokenfillask tokenid asktxid fillamount  
+tokenfillbid tokenid bidtxid fillamount  
+tokenfillswap tokenid otherid asktxid fillamount  
+tokeninfo 
+tokenorders [tokenid]  
+tokenswapask numtokens tokenid otherid price  
+tokentransfer tokenid destpubkey amount  
 
 [== Faucet ==](./rpc/faucet)  
 faucetaddress [pubkey]  
