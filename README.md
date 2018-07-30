@@ -14,7 +14,7 @@ Ponzi
 Auction
 
 ## How to Start?
-Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. 
+Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. All the commands to get you started are below.
 ```shell
 cd ~
 sudo apt-get update
@@ -34,7 +34,8 @@ cd komodo
 git checkout dev
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
-cd src
+
+cd ~/komodo/src
 ./komodod -ac_cc=1 -ac_name=ATEST -addressindex=1 -spentindex=1 -ac_supply=1000 -ac_reward=10000000000000 -pubkey=<yourpubkey> -addnode=136.243.58.134 -addnode=195.201.20.230 -addnode=195.201.137.5 &
 ```
 
