@@ -1,4 +1,4 @@
-# Komodo Platform's CryptoConditions SmartContract development
+# Komodo Platform's CryptoConditions Contract development
 Komodo CC Token testing description, setup &amp; how-to
 
 ## Available Contracts
@@ -13,7 +13,7 @@ Lotto
 Ponzi
 Auction
 
-## How to Start testing?
+## How to start testing?
 Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. All the commands to get you started are below.
 ```shell
 cd ~
