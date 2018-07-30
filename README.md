@@ -44,7 +44,7 @@ Source repo: https://github.com/jl777/komodo
 Source directory: https://github.com/jl777/komodo/tree/dev/src/cc  
 Useful Links: https://raw.githubusercontent.com/jl777/komodo/dev/src/cc/assets.cpp
 
-A1. Add EVAL_CODE to eval.h
+1. Add EVAL_CODE to eval.h
 2. Initialize the variables in the CCinit function below
 3. Write a Validate function to reject any unsanctioned usage of vin/vout
 4. Make helper functions to create rawtx for RPC functions
