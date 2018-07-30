@@ -8,10 +8,10 @@ Select the contract to learn more about the contract from below.
 [Faucet](./rpc/faucet)  
 
 ## WIP Contracts
-Dice
-Lotto
-Ponzi
-Auction
+Dice  
+Lotto  
+Ponzi  
+Auction  
 
 ## How to start testing?
 Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. All the commands to get you started are below.
