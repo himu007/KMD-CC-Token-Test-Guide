@@ -3,8 +3,8 @@
 
 ### Available RPC calls
 
-==Dice==
-diceaddfunds name fundingtxid amount  
+==Dice==  
+[diceaddfunds name fundingtxid amount](./diceaddfunds.md)  
 [diceaddress [pubkey]](./diceaddress.md)  
 dicebet name fundingtxid amount odds  
 [dicefund name funds minbet maxbet maxodds timeoutblocks](./dicefund.md)  
@@ -20,3 +20,5 @@ once there is a dice plan with funds, you can make dicebets. for now to resolve 
 last I will add a dicerefund that allows anybody to undo a dicebet, this would happen only if the diceplan node is offline.I guess it could be that it refunds or it becomes an automatic win. not sure which is best. probably need to make it an automatic win to incentivize the "house" account not to go offline
 in order to save a step, I dont hash the entropy of the dicebet. but I guess I need to if we want it to refund after timeout instead of automatic win, as the way it is now would allow the house account to just not complete a large losing bet
 as you can see, things are not quite settled, but enough seems to work I wanted to get some feedback
+
+the dicefund creator can actually finalize any dicebet transactions and it should properly deal with paying winners and not paying losing tx
