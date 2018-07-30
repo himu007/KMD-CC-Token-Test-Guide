@@ -7,7 +7,7 @@
 diceaddfunds name fundingtxid amount  
 [diceaddress [pubkey]](./diceaddress.md)  
 dicebet name fundingtxid amount odds  
-dicefund name funds minbet maxbet maxodds timeoutblocks  
+[dicefund name funds minbet maxbet maxodds timeoutblocks](./dicefund.md)  
 [diceinfo fundingtxid](./diceinfo.md)  
 [dicelist](./dicelist.md)  
 diceloser name fundingtxid bettxid  
