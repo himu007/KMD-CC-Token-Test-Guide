@@ -12,7 +12,8 @@ mindeposit = Minimum deposit amount
 funding = The amount of funds the rewards plan contains
 ```
 
-Example Command:
+### Example
+Command:
 ```shell
 ./komodo-cli -ac_name=ATEST rewardsinfo c0c5165902fd21728aed707888db082a72a013def8902c21626c1e5214f00fae
 ```
