@@ -67,3 +67,4 @@ WIP
 ```
 ---
 ### [Frequently Aksed Questions (faq)](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
+---
