@@ -1,1 +1,1 @@
-All the RPC commands, their description and expample available here. If you want to PR, please check the existing RPC call format here and create similar.
+All RPC commands are listed inside their own contract dir to keep them better organized.
