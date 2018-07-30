@@ -5,11 +5,11 @@
 
 ==Dice==
 diceaddfunds name fundingtxid amount  
-diceaddress [pubkey]  
+[diceaddress [pubkey]](./diceaddress.md)  
 dicebet name fundingtxid amount odds  
 dicefund name funds minbet maxbet maxodds timeoutblocks  
-diceinfo fundingtxid  
-dicelist  
+[diceinfo fundingtxid](./diceinfo.md)  
+[dicelist](./dicelist.md)  
 diceloser name fundingtxid bettxid  
 dicerefund name fundingtxid bettxid  
 dicewinner name fundingtxid bettxid  
