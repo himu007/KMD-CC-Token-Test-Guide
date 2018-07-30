@@ -6,9 +6,9 @@ Select the contract to learn more about the contract from below.
 [Tokens](./rpc/token)  
 [Rewards](./rpc/rewards)  
 [Faucet](./rpc/faucet)  
+[Dice](./rpc/dice)  
 
 ## WIP Contracts
-Dice  
 Lotto  
 Ponzi  
 Auction  
