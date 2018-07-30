@@ -1,17 +1,20 @@
-# KMD-CC-Token-Test-Guide
+# Komodo Platform's CryptoConditions Contract development
 Komodo CC Token testing description, setup &amp; how-to
 
-## Table of Contents  
+## Available SmartContracts
+Select the contract to learn more about the SmartContract from below.
+[Tokens](./rpc/tokens)  
+[Rewards](./rpc/rewards)  
+[Faucet](./rpc/faucet)  
 
-[Compile Komodo](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#compile-komodo)    
-[Available RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#available-rpc-commands)  
-[(WIP) RPC Commands](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/README.md#wip-rpc-commands)  
-[How to Create a New Contract?](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/How-to-create-a-new-contract.md)  
+## WIP SmartContracts
+Dice
+Lotto
+Ponzi
+Auction
 
----
-### [Frequently Aksed Questions (faq)](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
-
-## Compile Komodo
+## How to Start?
+Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. 
 ```shell
 cd ~
 sudo apt-get update
@@ -31,42 +34,11 @@ cd komodo
 git checkout dev
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
+cd src
+./komodod -ac_cc=1 -ac_name=ATEST -addressindex=1 -spentindex=1 -ac_supply=1000 -ac_reward=10000000000000 -pubkey=<yourpubkey> -addnode=136.243.58.134 -addnode=195.201.20.230 -addnode=195.201.137.5 &
 ```
 
-## Available RPC Commands
-
-[== Tokens ==](./rpc/token)  
-tokenaddress [pubkey]  
-tokenask numtokens tokenid price  
-tokenbalance tokenid [pubkey]  
-tokenbid numtokens tokenid price  
-tokencancelask tokenid asktxid  
-tokencancelbid tokenid bidtxid  
-tokencreate name supply description  
-tokenfillask tokenid asktxid fillamount  
-tokenfillbid tokenid bidtxid fillamount  
-tokenfillswap tokenid otherid asktxid fillamount  
-tokeninfo 
-tokenorders [tokenid]  
-tokenswapask numtokens tokenid otherid price  
-tokentransfer tokenid destpubkey amount  
-
-[== Faucet ==](./rpc/faucet)  
-faucetaddress [pubkey]  
-faucetfund  
-amountfaucetget  
-
-## WIP RPC Commands
-```
-== Rewards ==
-rewardsaddfunding name fundingtxid amount
-rewardsaddress [pubkey]
-rewardsfund name amount APR mindays maxdays mindeposit
-rewardslock name fundingtxid amount
-rewardsunlock name fundingtxid [txid]
-```
-
-## General guidance on reporting issues on discord (Regarding CryptoConditions development):
+## General guidance on reporting issues on discord (Regarding CryptoConditions and SmartContract development):
 
 * the specific chain parameters so anyone can connect to it
 * the **EXACT** rpc call and parameters you used
@@ -78,3 +50,5 @@ rewardsunlock name fundingtxid [txid]
 ```
 WIP
 ```
+---
+### [Frequently Aksed Questions (faq)](https://github.com/himu007/KMD-CC-Token-Test-Guide/blob/master/faq.md)  
