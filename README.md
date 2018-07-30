@@ -1,19 +1,19 @@
 # Komodo Platform's CryptoConditions SmartContract development
 Komodo CC Token testing description, setup &amp; how-to
 
-## Available SmartContracts
-Select the contract to learn more about the SmartContract from below.  
+## Available Contracts
+Select the contract to learn more about the contract from below.  
 [Tokens](./rpc/token)  
 [Rewards](./rpc/rewards)  
 [Faucet](./rpc/faucet)  
 
-## WIP SmartContracts
+## WIP Contracts
 Dice
 Lotto
 Ponzi
 Auction
 
-## How to Start?
+## How to Start testing?
 Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. All the commands to get you started are below.
 ```shell
 cd ~
@@ -38,6 +38,20 @@ git checkout dev
 cd ~/komodo/src
 ./komodod -ac_cc=1 -ac_name=ATEST -addressindex=1 -spentindex=1 -ac_supply=1000 -ac_reward=10000000000000 -pubkey=<yourpubkey> -addnode=136.243.58.134 -addnode=195.201.20.230 -addnode=195.201.137.5 &
 ```
+
+## For Developers
+Source repo: https://github.com/jl777/komodo  
+Source directory: https://github.com/jl777/komodo/tree/dev/src/cc  
+Useful Links: https://raw.githubusercontent.com/jl777/komodo/dev/src/cc/assets.cpp
+
+A1. Add EVAL_CODE to eval.h
+2. Initialize the variables in the CCinit function below
+3. Write a Validate function to reject any unsanctioned usage of vin/vout
+4. Make helper functions to create rawtx for RPC functions
+5. Add rpc calls to rpcserver.cpp and rpcserver.h and in one of the rpc.cpp files
+6. Add the new .cpp files to src/Makefile.am
+
+1, 2 and 6 are not even coding tasks. 4 and 5 are non-consensus time, mostly dealing with JSON. 3 is the main work needed, which makes sense as a different 3 is what makes it a different contract. A lot of a contract can use slightly modified functions from the other CC contracts. So the best way to do a new one would be to pick the one that is closest to what you want and start morphing it.
 
 ## General guidance on reporting issues on discord (Regarding CryptoConditions and SmartContract development):
 
