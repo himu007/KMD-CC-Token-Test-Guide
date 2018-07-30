@@ -1,4 +1,4 @@
-# Komodo Platform's CryptoConditions Contract development
+# Komodo Platform's CryptoConditions SmartContract development
 Komodo CC Token testing description, setup &amp; how-to
 
 ## Available SmartContracts
