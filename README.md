@@ -31,7 +31,7 @@ sudo ldconfig
 cd ~
 git clone https://github.com/jl777/komodo
 cd komodo
-git checkout dev
+git checkout jl777
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
 
