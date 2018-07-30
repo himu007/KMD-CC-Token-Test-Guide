@@ -4,7 +4,7 @@ Usage: `rewardsinfo`
 ### Terminology
 ```
 name = Name of the Rewards plan
-sbits = ??
+sbits = The first 8 chars of the name as a 64 bit int
 APR = Annual percentage of Rewards
 minseconds = Minimum time the funds will be locked in seconds
 maxseconds = Maximum time the funds will be locked in seconds
