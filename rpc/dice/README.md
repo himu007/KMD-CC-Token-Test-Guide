@@ -6,7 +6,7 @@
 ==Dice==  
 [diceaddfunds name fundingtxid amount](./diceaddfunds.md)  
 [diceaddress [pubkey]](./diceaddress.md)  
-dicebet name fundingtxid amount odds  
+[dicebet name fundingtxid amount odds](./dicebet.md)  
 [dicefund name funds minbet maxbet maxodds timeoutblocks](./dicefund.md)  
 [diceinfo fundingtxid](./diceinfo.md)  
 [dicelist](./dicelist.md)  
