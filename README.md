@@ -14,7 +14,7 @@ Ponzi
 Auction  
 
 ## How to start testing?
-Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. All the commands to get you started are below.
+Compile Komodo, navigate to `src` dir, start the test chain with your pubkey and issue the SmartContract RPC commands to test. All the instructions to get you started are below.
 ```shell
 cd ~
 sudo apt-get update
@@ -51,7 +51,7 @@ Useful Links: https://raw.githubusercontent.com/jl777/komodo/dev/src/cc/assets.c
 5. Add rpc calls to rpcserver.cpp and rpcserver.h and in one of the rpc.cpp files
 6. Add the new .cpp files to src/Makefile.am
 
-1, 2 and 6 are not even coding tasks. 4 and 5 are non-consensus time, mostly dealing with JSON. 3 is the main work needed, which makes sense as a different 3 is what makes it a different contract. A lot of a contract can use slightly modified functions from the other CC contracts. So the best way to do a new one would be to pick the one that is closest to what you want and start morphing it.
+1, 2 and 6 are not even coding tasks. 4 and 5 are non-consensus time, mostly dealing with JSON. 3 is the main work needed, which makes sense as a different 3 is what makes it a different contract. A lot of a contracts can use slightly modified functions from the other CC contracts. So the best way to do a new one would be to pick the one that is closest to what you want and start morphing it.
 
 ## General guidance on reporting issues on discord (Regarding CryptoConditions and SmartContract development):
 
