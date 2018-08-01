@@ -1,6 +1,7 @@
 ## Add Dice Funds
 
 Usage: `diceaddfunds name fundingtxid amount`
+Only the creator of the dicefund is able to add funds
 
 ### Terminology 
 ```
