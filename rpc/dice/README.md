@@ -11,9 +11,7 @@ dicefinish name fundingtxid bettxid
 [dicefund name funds minbet maxbet maxodds timeoutblocks](./dicefund.md)  
 [diceinfo fundingtxid](./diceinfo.md)  
 [dicelist](./dicelist.md)  
-dicestatus name fundingtxid bettxid
-dingtxid
-dicelist
+dicestatus name fundingtxid bettxid  
 
 Additionally, you need to create txids with hashed entropy, basically any dice tx other than a dicebet will add hashed entropy, but you need to create a few at first via diceaddfunds
 the diceinfo, dicelist, diceaddress work just like the rewards counterparts
