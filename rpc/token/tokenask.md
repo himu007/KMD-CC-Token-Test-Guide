@@ -6,7 +6,7 @@ Usage: `tokenask numtokens tokenid price`
 
 Example command:
 ```shell
-./komodo-cli -ac_name=ATEST tokenbask 1000 c5bbc34e6517c483afc910a3b0585c40da5c09b7c5d2d9757c5c5075e2d41b59 1```
+./komodo-cli -ac_name=ATEST tokenask 1000 c5bbc34e6517c483afc910a3b0585c40da5c09b7c5d2d9757c5c5075e2d41b59 1```
 output:
 ```JSON
 {
