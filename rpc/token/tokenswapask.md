@@ -3,6 +3,14 @@ Use this command to place an swap order with another token. So
 
 Usage: `tokenswapask numtokens tokenid otherid price`
 
+### Terminology:
+```
+numtokens = amount of tokens to swap
+tokenid = the token you want to swap from your wallet
+otherid = the txid of the other token
+price = asking price per token
+```
+
 ### Step 1: Create order (will output raw HEX value)
 Example Command:
 ```shell
