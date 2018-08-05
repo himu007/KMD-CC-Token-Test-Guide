@@ -22,12 +22,10 @@ tokenbid numtokens tokenid price
 tokencancelask tokenid asktxid  
 tokencancelbid tokenid bidtxid  
 tokencreate name supply description  
-tokenfillask tokenid asktxid fillamount  
+tokenfillask tokenid asktxid fillunits  
 tokenfillbid tokenid bidtxid fillamount  
-tokenfillswap tokenid otherid asktxid fillamount  
-tokeninfo 
-tokenlist
+tokeninfo tokenid  
+tokenlist  
 tokenorders [tokenid]  
-tokenswapask numtokens tokenid otherid price  
 tokentransfer tokenid destpubkey amount  
 ```
