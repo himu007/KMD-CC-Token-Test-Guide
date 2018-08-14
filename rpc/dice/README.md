@@ -7,11 +7,11 @@
 [diceaddfunds name fundingtxid amount](./diceaddfunds.md)  
 [diceaddress [pubkey]](./diceaddress.md)  
 [dicebet name fundingtxid amount odds](./dicebet.md)  
-dicefinish name fundingtxid bettxid  
+[dicefinish name fundingtxid bettxid](./dicefinish.md)  
 [dicefund name funds minbet maxbet maxodds timeoutblocks](./dicefund.md)  
 [diceinfo fundingtxid](./diceinfo.md)  
 [dicelist](./dicelist.md)  
-dicestatus name fundingtxid bettxid  
+[dicestatus name fundingtxid bettxid](./dicestatus.md)  
 
 The diceplan creator needs to be running dicestatus in a crontask or some regular frequency. This finishes any unfinished bets and also creates entropy tx.
 
