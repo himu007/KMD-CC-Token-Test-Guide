@@ -8,7 +8,6 @@ Fill: 'b' is the offer, 'B' is the fill
 Ask: 's' is the offer, 'S' is the ask
 fillbid for bid
 fillask for ask
-fillswap for swap
 ```
 
 If you place an offer, until someone fills the order, it just sits there. 
