@@ -1,5 +1,7 @@
 This is a Faucet smartcontract. Enabled anyone to setup and operate a faucet. There is a faucet address where everyone can send their funds and the address will be serving anyone who requests it.
 
+Faucet returns 0.1 coins and requires about 30 seconds of CPU time.
+
 ## Available RPC Calls
 
 == Faucet ==  
