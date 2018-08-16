@@ -1,6 +1,8 @@
 ## Create new Rewards Funding
 Usage: `rewardscreatefunding name amount APR mindays maxdays mindeposit`
 
+Note: If you create a plan with `mindeposit: 10000`, make sure you have added 10000 + tx fees using the `rewardsaddfunding` call after creating the plan. The Rewards contract is set to require deposit amount of funding in rewards plan as assurance it will have the funds needed to pay.
+
 ### Step 1: Create raw transaction HEX using your own parameter
 For the example command we used
 ```
