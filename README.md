@@ -36,7 +36,7 @@ git checkout jl777
 ./zcutil/build.sh -j$(nproc)
 
 cd ~/komodo/src
-./komodod -ac_cc=1 -ac_name=AT3 -addressindex=1 -spentindex=1 -ac_supply=1000 -ac_reward=10000000000000 -pubkey=<your_pub_key> -addnode=195.201.20.230 -addnode=195.201.137.5 -addnode=195.201.20.230 -addnode=94.130.224.11 &
+./komodod -ac_cc=1 -ac_name=ATX -addressindex=1 -spentindex=1 -ac_supply=1000 -ac_reward=10000000000000 -pubkey=<your_pub_key> -addnode=195.201.20.230 -addnode=195.201.137.5 -addnode=195.201.20.230 -addnode=94.130.224.11 &
 ```
 
 ## For Developers
